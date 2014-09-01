@@ -2,9 +2,10 @@
 #
 #  imouto.host
 #
-#  #Ver : 2.07.0458 Sakura Chiyo
-#  #Update Time : 2014.09.01;16:02
+#  #Ver : 2.08.0462 Sakura Chiyo
+#  #Update Time : 2014.09.01;17:41
 #  #Fix & Bug : 
+#  # 2.08.0462: 修复Google服务。
 #  # 2.07.0458: 修复Google服务。
 #  # 2.06.0457: 其它BUG修正。
 #  # 2.06.0457: 尝试修复Chrome远程桌面，感谢网友诸葛氧气。

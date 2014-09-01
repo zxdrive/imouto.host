@@ -1,12 +1,12 @@
 ﻿#+BEGIN
-#+UPDATE_TIME 2014-09-01 16:02:00
+#+UPDATE_TIME 2014-09-01 17:41:00
 #+MESSAGE
 #######################################################################
 #
 #  imouto.host
 #
-#  #Ver : 2.07.0458 Sakura Chiyo
-#  #Update Time : 2014.09.01;16:02
+#  #Ver : 2.08.0462 Sakura Chiyo
+#  #Update Time : 2014.09.01;17:41
 #  #Fix & Bug : 请参阅imouto.host.Readme.txt
 #
 #  数据来源于互联网上的无名英雄们
@@ -155,7 +155,6 @@
 127.0.0.1	pic.casee.cn
 127.0.0.1	d.wiyun.com
 127.0.0.1	www.adview.cn
-#127.0.0.1	www.gstatic.com
 127.0.0.1	r.domob.cn
 127.0.0.1	s.domob.cn
 127.0.0.1	cfg.adsmogo.com
@@ -2816,8 +2815,8 @@
 64.233.185.141	wcproxyx.appspot.com
 #Appspot↑
 #GoogleDrive↓
-210.242.125.24	drive.google.com
-210.242.125.24	docs.google.com
+64.233.185.102	drive.google.com
+64.233.185.101	docs.google.com
 74.125.207.132	googledrive.com
 74.125.207.132	storage.googleapis.com
 74.125.207.132	commondatastorage.googleapis.com
@@ -3037,9 +3036,12 @@
 64.233.185.133	sp9.googleusercontent.com
 #Googleusercontent↑
 #Gstatic↓
-64.233.185.94	csi.l.google.com
+64.233.185.94	www.gstatic.com
+64.233.185.94	ssl.gstatic.com
 64.233.185.120	csi.gstatic.com
-210.242.125.24	ssl.gstatic.com
+64.233.185.94	csi.l.google.com
+64.233.185.120	maps.gstatic.com
+64.233.185.120	fonts.gstatic.com
 64.233.185.120	encrypted-tbn0.gstatic.com
 64.233.185.120	encrypted-tbn1.gstatic.com
 64.233.185.120	encrypted-tbn2.gstatic.com
@@ -3047,10 +3049,14 @@
 64.233.185.120	encrypted-tbn4.gstatic.com
 64.233.185.120	encrypted-tbn5.gstatic.com
 64.233.185.120	encrypted-tbn6.gstatic.com
-210.242.125.24	g0.gstatic.com
-210.242.125.24	g1.gstatic.com
-210.242.125.24	g2.gstatic.com
-210.242.125.24	g3.gstatic.com
+64.233.185.120	g0.gstatic.com
+64.233.185.120	g1.gstatic.com
+64.233.185.120	g2.gstatic.com
+64.233.185.120	g3.gstatic.com
+64.233.185.120	g4.gstatic.com
+64.233.185.120	g5.gstatic.com
+64.233.185.120	g6.gstatic.com
+64.233.185.120	g7.gstatic.com
 210.242.125.24	mt0.gstatic.com
 210.242.125.24	mt1.gstatic.com
 210.242.125.24	mt2.gstatic.com
@@ -3063,9 +3069,10 @@
 210.242.125.24	t1.gstatic.com
 210.242.125.24	t2.gstatic.com
 210.242.125.24	t3.gstatic.com
-210.242.125.24	www.gstatic.com
-210.242.125.24	maps.gstatic.com
-210.242.125.24	fonts.gstatic.com
+210.242.125.24	t4.gstatic.com
+210.242.125.24	t5.gstatic.com
+210.242.125.24	t6.gstatic.com
+210.242.125.24	t7.gstatic.com
 #Gstatic↑
 64.233.185.113	apis.google.com
 64.233.185.113	talkgadget.google.com
@@ -3074,7 +3081,7 @@
 74.125.207.189	chromoting-client.talkgadget.google.com
 74.125.207.189	wildcard-talkgadget.l.google.com
 210.242.125.24	relay.google.com
-64.233.185.83	mail.google.com
+64.233.168.17	mail.google.com
 64.233.185.102	play.google.com
 210.242.125.24	keep.google.com
 210.242.125.40	plus.google.com
