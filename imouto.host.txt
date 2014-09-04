@@ -1,15 +1,233 @@
-﻿#+BEGIN
-#+UPDATE_TIME 2014-09-01 18:48:00
+#+BEGIN
+#+UPDATE_TIME 2014-09-04 16:30:00
 #+MESSAGE
 #######################################################################
 #
 #  imouto.host
 #
-#  #Ver : 2.10.0466 Sakura Chiyo
-#  #Update Time : 2014.09.01;21:08
-#  #Fix & Bug : 请参阅imouto.host.Readme.txt
+#  主页：https://plus.google.com/100484131192950935968/posts
+#
+#  #Ver : 2.11.0468 Sakura Chiyo
+#  #Update Time : 2014.09.04;16:30
+#  #Fix & Bug : 
+#  # 2.11.0468: 两个文件合并。
+#  # 2.11.0468: 少量BUG修正。
+#  # 2.10.0466: 修复Google服务。
+#  # 2.09.0463: 修复Google+。
+#  # 2.08.0462: 修复Google服务。
+#  # 2.07.0458: 修复Google服务。
+#  # 2.06.0457: 其它BUG修正。
+#  # 2.06.0457: 尝试修复Chrome远程桌面，感谢网友诸葛氧气。
+#  # 2.05.0453: 其它BUG修正。
+#  # 2.05.0453: 加速维基百科。
+#  # 2.05.0453: 修复Facebook移动版。
+#  # 2.04.0450: 尝试修复Dropbox。
+#  # 2.03.0449: 其它BUG修正。
+#  # 2.03.0449: 尝试彻底修复环聊。
+#  # 2.03.0449: 修复Youtube（依然不能看片别做梦了）。
+#  # 2.02.0446: 新看板娘：佐仓千代(Sakura Chiyo)。
+#  # 2.02.0446: 修复和加速各种Google服务。
+#  # 2.01.0442: 修复和加速各种Google服务。
+#  # 1.94.0440: 修复Chrome压缩服务，未测试，感谢网友Yiwen Zhang。
+#  # 1.93.0439: 修复各种Google服务。
+#  # 1.92.0437: 修复各种Google服务。
+#  # 1.91.0433: 实验性修复Google Play失败，重新屏蔽。
+#  # 1.90.0432: 实验性修复Google Play，未经测试，很可能无法使用。
+#  # 1.90.0432: 尝试修复Android服务。
+#  # 1.89.0430: 尝试加速Google图床。
+#  # 1.88.0429: 修复Chrome远程桌面。
+#  # 1.87.0424: 修复Dropbox，感谢网友DuckDuckGo。
+#  # 1.87.0424: 修复ProjectH的DNS投毒部分，但ProjectH仍有关键字拦截的问题。
+#  # 1.86.0422: 整理了部分AdBlock。
+#  # 1.85.0421: 尝试稳定OneDrive，感谢网友DuckDuckGo。
+#  # 1.85.0421: 尝试修复谷歌街景，未测试，感谢网友Xiaoyu Tai 。
+#  # 1.85.0421: Google大提速。
+#  # 1.84.0418: 修复Box.com。
+#  # 1.83.0417: 尝试修复OneDrive，但效果不佳。
+#  # 1.82.0416: 新看板娘：香风智乃(Kafuu Chino)。
+#  # 1.81.0415: 修复www.google.com。
+#  # 1.80.0414: 提升可读性。
+#  # 1.80.0414: 尝试修复Google服务。
+#  # 1.79.0408: 修复Dropbox。
+#  # 1.79.0408: 尝试修复Android GooglePlus。
+#  # 1.78.0404: 修复Twitter。
+#  # 1.78.0404: 修复Android服务。
+#  # 1.78.0404: 修复百度。
+#  # 1.77.0392: 修复Gmail图片。
+#  # 1.76.0390: 修复Dropbox。
+#  # 1.75.0389: 修复Dropbox。
+#  # 1.74.0384: 修复Google图片搜索。
+#  # 1.73.0383: 修复Google服务。
+#  # 1.72.0376: 尝试加速Google服务。未经完整测试，有BUG请淡定。
+#  # 1.72.0376: 修复Google Keep。
+#  # 1.71.0374: 修复Google Play。
+#  # 1.70.0373: 修复部分Google服务。
+#  # 1.69.0372: 修复Google Drive客户端。
+#  # 1.68.0371: 修复Google Play。
+#  # 1.67.0370: 修复Google Play。
+#  # 1.66.0369: 修复部分谷歌服务。
+#  # 1.65.0367: 新增GitHub支持。
+#  # 1.65.0367: 修复部分谷歌服务。
+#  # 1.65.0367: 更换谷歌台湾数据中心IP。
+#  # 1.64.0364: 全面启用谷歌新西兰和欧洲数据中心IP。请注意此版本并非稳定版本，未经充分测试，速度较慢，且部分服务仍然受限，仅供恶心功夫网用。
+#  # 1.56.0287: 修复谷歌登录界面。
+#  # 1.55.0286: 尝试修复谷歌服务。
+#  # 1.54.0266: 尝试修复谷歌服务。
+#  # 1.53.0264: 纪念。
+#  # 1.53.0264: 尝试修复谷歌服务。
+#  # 1.52.0194: 尝试稳定谷歌硬盘。
+#  # 1.51.0193: 修复谷歌远程桌面。
+#  # 1.50.0192: 加速维基百科。
+#  # 1.50.0192: 加速各类谷歌服务。
+#  # 1.49.0190: 其它细节修复。
+#  # 1.49.0190: 支持喷嚏网。
+#  # 1.49.0190: 加速Dropbox，感谢Project H论坛网友：for​me。
+#  # 1.49.0190: 尝试提高Youtube兼容性，并未进行测试；这不代表Youtube可以正常访问。
+#  # 1.49.0190: 尝试加速谷歌图床，但说实话效果不佳，详细原因比较复杂此处不表。
+#  # 1.49.0190: 修复Android推送。
+#  # 1.48.0183: 修改格式为Project H友好格式，从此版本起在Project H上同步更新。
+#  # 1.48.0183: 添加并修正Facebook部分域名，但因为条件有限所有功能并未做完整测试。
+#  # 1.48.0183: 屏蔽3DM。
+#  # 1.47.0180: 支持谷歌图书。
+#  # 1.46.0179: 加速谷歌地图Android版。
+#  # 1.45.0178: 修复Gmail联系人和邮件图片。
+#  # 1.44.0176: 加速www.google.com。
+#  # 1.43.0175: 修复Facebook某些图片。
+#  # 1.43.0175: 加速Google Plus、Google Play、环聊等。
+#  # 1.42.0173: 尝试修复Google Drive。
+#  # 1.40.0171: 新看板娘：缪雪儿·佛兰(Myuseru foaran)。
+#  # 1.40.0171: 能用的家伙都使出来了，Google服务的速度和稳定几乎达到了最平衡，方大爷我想歇一会你就成全我吧。
+#  # 1.40.0171: 我一天更新了5个版本你造吗？
+#  # 1.37.0167: 尝试修复Google Drive。
+#  # 1.37.0167: 尝试加速Google Plus。
+#  # 1.36.0165: 尝试加速谷歌账户鉴权。
+#  # 1.35.0164: 尝试加速维基百科。
+#  # 1.34.0163: 默认编码更改为UTF8。
+#  # 1.34.0163: 尝试稳定谷歌服务。
+#  # 1.33.0161: 根据反馈，减少谷歌北京服务器的使用，以尝试稳定谷歌服务。
+#  # 1.32.0158: 新增BN更新加速，用于外服玩家加速更新，默认关闭，如果你不知道这是什么请勿开启。
+#  # 1.32.0158: 尝试稳定环聊。
+#  # 1.31.0157: 新看板娘：夜夜(Yaya)。
+#  # 1.31.0157: 尝试修复环聊WEB版。
+#  # 1.30.0155: 尝试加强Google服务稳定性和速度，大面积启用谷歌台湾及东南亚等地区的数据中心IP。因更新内容较多，尚未完全测试，欢迎大家及时上报BUG。
+#  # 1.29.0148: 加速12306。
+#  # 1.29.0148: 鉴于已经可以通过某些不可靠的方式播放Youtube视频，Youtube条目再次加入，目前可以浏览网页，播放视频仍需搭配其它方案。
+#  # 1.29.0148: 修复一些Google服务。
+#  # 1.29.0148: 再次取消GooglePlay加速，以解决频繁发生的GooglePlay故障。
+#  # 1.28.0145: 解封3DM。
+#  # 1.27.0144: 修复维基百科。
+#  # 1.26.0143: 尝试让云端硬盘和谷歌地图等服务更稳定。
+#  # 1.25.0142: 修复谷歌账户登入用域名。
+#  # 1.25.0142: 紧急修复部分Google域名的403错误。
+#  # 1.23.0139: 修复部分谷歌IP，这次修复时意外发现部分谷歌IP解封了。
+#  # 1.23.0139: 修复PC版和移动版云端硬盘客户端。
+#  # 1.23.0139: 修复Dropbox。
+#  # 1.22.0133: 新看板娘：艾·亚斯汀(Ai Asutin)。
+#  # 1.22.0132: 某些原本就无法正常下载的APP无法从Google Play加速受益，仍需通过VPN等方式进行下载。原因是Google Play下载APP并未使用SSL加密。
+#  # 1.22.0132: 重开Google Play加速，修复了某些原本就无法正常下载的APP在加速后即使挂上VPN也无法下载的BUG。总体速度略低于之前带有BUG的加速模式，但相比未加速前有巨幅提升。
+#  # 1.21.0130: 屏蔽Google Play加速，以解决某些原本就无法正常下载的APP在加速后即使挂上VPN也无法下载的BUG。
+#  # 1.20.0129: 新看板娘提名征集中。
+#  # 1.20.0129: 尝试加速Google Play，未经完整测试，可能会出现无法下载某个APP的情况（即使挂上VPN后），欢迎及时上报BUG。
+#  # 1.20.0129: 推特可用的一个服务器应该是被推特自己关闭了，目前解除了对推特的支持，等待新IP出现。
+#  # 1.20.0129: 修复了屏蔽淘宝广告同时也屏蔽了正常链接的问题。
+#  # 1.19.0126: 解除淘宝客广告链接的封锁，因为封锁淘宝客会造成一淘返利链接失效。
+#  # 1.18.0125: 针对Android平台作出大量修复，受到增益的APP包括但不限于：Facebook、Twitter和GMS。
+#  # 1.17.121: 修复Google Map。
+#  # 1.16.120: 修复了一个可能造成GooglePlus Android不正常的BUG。
+#  # 1.15.119: 新增封锁了大量广告（被一个布满了广告的页面坑了五六兆流量，怀恨在心）（未进行完全测试，请大家及时上报BUG）。
+#  # 1.15.119: 微调了部分谷歌服务IP。
+#  # 1.14.116: 修复inoreader。
+#  # 1.13.115: Twitter Web版（含移动Web）解封，移动客户端尝试解封（尚未测试），感谢Smarthosts。Facebook移动客户端确认稳定运行。
+#  # 1.12.114: 尝试继续完善Facebook。
+#  # 1.11.112: Facebook部分解封，但仍有部分功能无法在墙内使用，例如上传图片。Twitter暂时解封不能。
+#  # 1.10.110: 新看板娘：时崎狂三(Tokisaki Kurumi)。
+#  # 1.10.110: 其它少量BUG修复。
+#  # 1.10.110: 修复谷歌部分服务器证书问题。
+#  # 1.10.110: 大部分常用非敏感谷歌服务全面启用谷歌北京数据中心，速度巨幅提升，谷歌地图可实现路线秒搜。
+#  # 1.06.106: 维基百科全面解封；启用荷兰服务器，速度较慢，但很稳定。
+#  # 1.05.104: 修复Flickr。
+#  # 1.04.103: 修复Twitter和GoogleUser的一些BUG。
+#  # 1.03.102: 修复chromium.org。
+#  # 1.03.101: 版本号重新设计，以方便版本管理。
+#  # 1.03.101: Twitter回归。
+#  # 1.2.5: 修复Facebook。
+#  # 1.2.4: 重启Android加速失败，版本退回。
+#  # 1.2.3: 尝试重启Android加速。
+#  # 1.2.1: 修复Play商店中APP预览图无法显示的问题，原因是证书与服务器不符。
+#  # 1.2.0: 四糸乃我爱你啊（prpr
+#  # 1.1.5: 对了，该换看板娘了。
+#  # 1.1.5: 因为GFW长时间没更新，所以我对GFW发出了深深的鄙视，并在没有做任何实质性修改的情况下对imouto.host的版本号进行了更新。
+#  # 1.1.3: 谷歌地图 For Android位置设置偶尔不可用，原因未知。
+#  # 1.1.3: 暂时屏蔽Wikipedia。
+#  # 1.1.2: 修复Facebook移动版。
+#  # 1.1.1: 维护者博客搬家，加入维护者博客IP相关地址。
+#  # 1.1.1: 继续修复WordPress.com。
+#  # 1.1.0: 新增WordPress.com支持。
+#  # 1.0.9: 修复Facebook上传。
+#  # 1.0.8: 修复Dropbox。
+#  # 1.0.7: 庆祝苹果在中国大陆部署CDN，苹果相关Host条目全部删除，Host本体大精简！
+#  # 1.0.6: 修复Facebook头像。
+#  # 1.0.5: 修复Ingress，添加若干Google域名。
+#  # 1.0.4: 修复Ingress。
+#  # 1.0.3: 切换谷歌数据中心IP为新加坡数据中心，修复中国华北地区谷歌服务缓慢问题。
+#  # 1.0.2: 加速GoogleMap For Android。
+#  # 1.0.1: 修复GTalk For Android。
+#  # 1.0.0: 我是幼驯染党。
+#  # 1.0.0: 切换谷歌数据中心IP为马来西亚吉隆坡数据中心，谷歌服务速度巨幅提升。
+#  # 1.0.0: 添加若干谷歌域名。
+#  # 1.0.0: 修复Facebook Web版。
+#  # 0.9.9: 添加了一个云端硬盘域名。
+#  # 0.9.8: BUG修复。
+#  # 0.9.7: BUG修复，Facebook Web版速度略微提升。
+#  # 0.9.6: 加速www.google.com。
+#  # 0.9.5: BUG修复。
+#  # 0.9.4: 加速Chrome翻译Api。
+#  # 0.9.4: 加速谷歌地图Api，Ingress Intel Map稳定性大幅提升。
+#  # 0.9.2: 支援Ingress。
+#  # 0.9.1: 修复www.google.com。
+#  # 0.9.0: Facebook加速。
+#  # 0.8.9: 谷歌图片服务器稳定性加强。
+#  # 0.8.8: Filpboard内Google+修复。
+#  # 0.8.7: BUG修复。
+#  # 0.8.6: BUG修复。
+#  # 0.8.5: 大幅提升host文件可读性。
+#  # 0.8.5: 云端硬盘 for Android复活！
+#  # 0.8.5: gReader故障修复。
+#  # 0.8.5: Filpboard内Google+图片无法显示，原因未知。
+#  # 0.8.3: 大量BUG修复。
+#  # 0.8.2: 大量BUG修复。
+#  # 0.8.1: 大量BUG修复。
+#  # 0.8.0: Android各项Google服务仍然不稳定，云端硬盘客户端由于未知的原因甚至翻墙后亦无法使用。
+#  # 0.8.0: Android各项Google服务请尝试使用Web客户端或第三方客户端，如ES文件浏览器和钛备份内置云端硬盘同步功能均正常。
+#  # 0.8.0: 添加Facebook APPs域名，解封Facebook游戏。
+#  # 0.8.0: Facebook for Android 2.X版客户端仍不稳定，请尝试使用1.X版客户端或Web版客户端。
+#
+#  #看板娘 : 
+#  # 2.02.0446: 佐仓千代(Sakura Chiyo)，《月刊少女野崎君》
+#  # 1.82.0416: 香风智乃(Kafuu Chino)，《请问您今天要来点兔子吗？》
+#  # 1.40.0171: 缪雪儿·佛兰(Myuseru foaran)，《萌萌侵略者》
+#  # 1.31.0157: 夜夜(Yaya)，《机巧少女不会受伤》
+#  # 1.22.0133: 艾·亚斯汀(Ai Asutin)，《神不在的星期天》
+#  # 1.10.110: 时崎狂三(Tokisaki Kurumi)，《DATE·A·LIVE》
+#  # 1.2.0: 四糸乃(Yoshino)，《DATE·A·LIVE》
+#  # 1.0.0: 春咲千和(Harusaki Chiwa)，《我女友与青梅竹马的惨烈修罗场》
+#  # 0.8.0: 小鸟游六花(Takanashi Rikka)，《中二病也要谈恋爱！》
+#
+#  #捐助者 : 
+#  #每个星号代表1字节，括号内金额为扣除手续费后的实际到账金额。
+#  #若捐助者提出要求，我可以在这里完整或部分显示捐助者信息，但请捐助者注意身份泄露问题。
+#  #imouto.host捐助用PayPal收款账户：moe@love.com
+#  # 2014.06.29: 张**，************@gmail.com，USD 5.00 (4.50)
+#  # 2014.06.30: 陈**，********@gmail.com，USD 2.00 (1.62)
+#  # 2014.07.02: 毛****，**********@***.com，USD 10.00 (9.31)
+#  # 2014.07.14: ******* Chen，*******5@**.com，USD 20.00 (18.92)
+#  # 2014.07.14: Zhang *********，****@*****.co.jp，USD 2.33 (1.94)
+#  # 2014.08.06: GONG ******，g******@***********.net，USD 30.00 (28.53)
+#  # 2014.08.13: Hu ********，*************@gmail.com，USD 15.00 (14.11)
+#  # 2014.08.27: 刘****，*********@*******.org，USD 25.00 (23.72)
 #
 #  数据来源于互联网上的无名英雄们
+#  捐助来自于互联网自由的支持者们
 #  感谢他们！
 #
 #######################################################################
@@ -21,165 +239,20 @@
 #localhost END
 
 #AdBlock START
-127.0.0.1	rad.msn.com
-127.0.0.1	rad.live.com
-127.0.0.1	servserv.generals.ea.com
-127.0.0.1	mangler1.generals.ea.com
-127.0.0.1	mangler2.generals.ea.com
-127.0.0.1	mangler3.generals.ea.com
-127.0.0.1	mangler4.generals.ea.com
-127.0.0.1	mangler5.generals.ea.com
-127.0.0.1	mangler6.generals.ea.com
-127.0.0.1	mangler7.generals.ea.com
-127.0.0.1	mangler8.generals.ea.com
-127.0.0.1	mangler9.generals.ea.com
-127.0.0.1	mangler10.generals.ea.com
-127.0.0.1	atm.youku.com
-127.0.0.1	Fvid.atm.youku.com
-127.0.0.1	html.atm.youku.com
-127.0.0.1	valb.atm.youku.com
-127.0.0.1	valf.atm.youku.com
-127.0.0.1	valo.atm.youku.com
-127.0.0.1	valp.atm.youku.com
-127.0.0.1	lstat.youku.com
-127.0.0.1	speed.lstat.youku.com
-127.0.0.1	urchin.lstat.youku.com
-127.0.0.1	stat.youku.com
-127.0.0.1	static.lstat.youku.com
-127.0.0.1	valc.atm.youku.com
-127.0.0.1	vid.atm.youku.com
-127.0.0.1	walp.atm.youku.com
-127.0.0.1	a.baidu.com
-127.0.0.1	baidutv.baidu.com
-127.0.0.1	bar.baidu.com
-127.0.0.1	c.baidu.com
-127.0.0.1	cjhq.baidu.com
-127.0.0.1	drmcmm.baidu.com
-127.0.0.1	e.baidu.com
-127.0.0.1	eiv.baidu.com
-127.0.0.1	hc.baidu.com
-127.0.0.1	hm.baidu.com
-127.0.0.1	ma.baidu.com
-127.0.0.1	nsclick.baidu.com
-127.0.0.1	spcode.baidu.com
-127.0.0.1	tk.baidu.com
-127.0.0.1	union.baidu.com
-127.0.0.1	ucstat.baidu.com
-127.0.0.1	utility.baidu.com
-127.0.0.1	utk.baidu.com
-127.0.0.1	focusbaiduafp.allyes.com
-127.0.0.1	afp.qiyi.com
-127.0.0.1	focusbaiduafp.allyes.com
-127.0.0.1	a.cctv.com
-127.0.0.1	a.cntv.cn
-127.0.0.1	ad.cctv.com
-127.0.0.1	d.cntv.cn
-127.0.0.1	adguanggao.eee114.com
-127.0.0.1	cctv.adsunion.com
-127.0.0.1	dcads.sina.com.cn
-127.0.0.1	pp2.pptv.com
-127.0.0.1	pro.letv.com
-127.0.0.1	images.sohu.com
-127.0.0.1	a.cctv.com
-127.0.0.1	a.cntv.cn
-127.0.0.1	ad.cctv.com
-127.0.0.1	d.cntv.cn
-127.0.0.1	adguanggao.eee114.com
-127.0.0.1	cctv.adsunion.com
-127.0.0.1	acs.56.com
-127.0.0.1	acs.agent.56.com
-127.0.0.1	acs.agent.v-56.com
-127.0.0.1	bill.agent.56.com
-127.0.0.1	bill.agent.v-56.com
-127.0.0.1	stat.56.com
-127.0.0.1	stat2.corp.56.com
-127.0.0.1	union.56.com
-127.0.0.1	uvimage.56.com
-127.0.0.1	v16.56.com
-127.0.0.1	pole.6rooms.com
-127.0.0.1	shrek.6.cn
-127.0.0.1	simba.6.cn
-127.0.0.1	union.6.cn
-127.0.0.1	adextensioncontrol.tudou.com
-127.0.0.1	iwstat.tudou.com
-127.0.0.1	nstat.tudou.com
-127.0.0.1	stats.tudou.com
-127.0.0.1	at-img1.tdimg.com
-127.0.0.1	at-img2.tdimg.com
-127.0.0.1	at-img3.tdimg.com
-127.0.0.1	adplay.tudou.com
-127.0.0.1	adcontrol.tudou.com
-127.0.0.1	stat.tudou.com
 127.0.0.1	1.allyes.com.cn
-127.0.0.1	analytics.ku6.com
-127.0.0.1	gug.ku6cdn.com
-127.0.0.1	ku6.allyes.com
-127.0.0.1	ku6afp.allyes.com
-127.0.0.1	pq.stat.ku6.com
-127.0.0.1	st.vq.ku6.cn
-127.0.0.1	stat0.888.ku6.com
-127.0.0.1	stat1.888.ku6.com
-127.0.0.1	stat2.888.ku6.com
-127.0.0.1	stat3.888.ku6.com
-127.0.0.1	static.ku6.com
-127.0.0.1	v0.stat.ku6.com
-127.0.0.1	v1.stat.ku6.com
-127.0.0.1	v2.stat.ku6.com
-127.0.0.1	v3.stat.ku6.com
 127.0.0.1	86file.megajoy.com
 127.0.0.1	86get.joy.cn
 127.0.0.1	86log.joy.cn
-127.0.0.1	casting.openv.com
-127.0.0.1	m.openv.tv
-127.0.0.1	uniclick.openv.com
-127.0.0.1	mcfg.sandai.net
-127.0.0.1	biz5.sandai.net
-127.0.0.1	server1.adpolestar.net
-127.0.0.1	advstat.xunlei.com
-127.0.0.1	static.mediav.com
-127.0.0.1	ashow.pcpop.com
-127.0.0.1	mpv.sandai.net
-127.0.0.1	cache.adm.cnzz.net
-127.0.0.1	click.am1.adm.cnzz.net
-#---.---.---.---
-127.0.0.1	api.admob.com
-127.0.0.1	mm.admob.com
-127.0.0.1	r.admob.com
-127.0.0.1	ade.wooboo.com.cn
-127.0.0.1	static.wooboo.com.cn
-127.0.0.1	gw.youmi.net
-127.0.0.1	static.youmi.net
-127.0.0.1	aos.gw.youmi.net
-127.0.0.1	stat.gw.youmi.net
-127.0.0.1	wap.casee.cn
-127.0.0.1	pic.casee.cn
-127.0.0.1	d.wiyun.com
-127.0.0.1	www.adview.cn
-127.0.0.1	r.domob.cn
-127.0.0.1	s.domob.cn
-127.0.0.1	cfg.adsmogo.com
-127.0.0.1	req.adsmogo.com
-127.0.0.1	imp.adsmogo.com
-127.0.0.1	appsrv1.madserving.cn
-127.0.0.1	hermes.airad.com
-127.0.0.1	ad.airad.com
-127.0.0.1	cn.ad.adon.vpon.com
-127.0.0.1	cn.img.adon.vpon.com
-127.0.0.1	ads.lmmob.com
-127.0.0.1	r2.adwo.com
-127.0.0.1	static.adwo.com
-127.0.0.1	ads.waps.cn
-127.0.0.1	ads.wapx.cn
-127.0.0.1	api.airpush.com
-#---.---.---.---
-#127.0.0.1	4.afs.googleadservices.com
+127.0.0.1	Fvid.atm.youku.com
 127.0.0.1	a-ads.com
 127.0.0.1	a.admob.com
-127.0.0.1	a.alimama.cn
 127.0.0.1	a.baidu.com
+127.0.0.1	a.cctv.com
+127.0.0.1	a.cntv.cn
 127.0.0.1	ac.atpanel.com
-127.0.0.1	acookie.alibaba.com
-127.0.0.1	acookie.alimama.com
+127.0.0.1	acs.56.com
+127.0.0.1	acs.agent.56.com
+127.0.0.1	acs.agent.v-56.com
 127.0.0.1	ad-411.com
 127.0.0.1	ad-apac.doubleclick.net
 127.0.0.1	ad-apac.doubleclick.net
@@ -214,6 +287,8 @@
 127.0.0.1	ad.ae.doubleclick.net
 127.0.0.1	ad.afy11.net
 127.0.0.1	ad.agilemedia.jp
+127.0.0.1	ad.airad.com
+127.0.0.1	ad.allyes.cn
 127.0.0.1	ad.aquamediadirect.com
 127.0.0.1	ad.ar.doubleclick.net
 127.0.0.1	ad.at.doubleclick.net
@@ -224,6 +299,7 @@
 127.0.0.1	ad.br.doubleclick.net
 127.0.0.1	ad.brainer.jp
 127.0.0.1	ad.ca.doubleclick.net
+127.0.0.1	ad.cctv.com
 127.0.0.1	ad.ch.doubleclick.net
 127.0.0.1	ad.cibleclick.com
 127.0.0.1	ad.cl.doubleclick.net
@@ -234,7 +310,6 @@
 127.0.0.1	ad.directmirror.com
 127.0.0.1	ad.dk.doubleclick.net
 127.0.0.1	ad.doubleclick.com
-127.0.0.1	ad.doubleclick.net
 127.0.0.1	ad.doubleclick.net
 127.0.0.1	ad.download..net
 127.0.0.1	ad.duga.jp
@@ -352,6 +427,11 @@
 127.0.0.1	adapd.com
 127.0.0.1	adb.fling.com
 127.0.0.1	adclick.g.doubleclick.net
+127.0.0.1	adcontrol.tudou.com
+127.0.0.1	ade.wooboo.com.cn
+127.0.0.1	adextensioncontrol.tudou.com
+127.0.0.1	adguanggao.eee114.com
+127.0.0.1	adguanggao.eee114.com
 127.0.0.1	adm.265g.com
 127.0.0.1	adm.baidu.com
 127.0.0.1	adm.funshion.com
@@ -369,6 +449,7 @@
 127.0.0.1	admeta.vo.llnwd.net
 127.0.0.1	admez.com
 127.0.0.1	adping.qq.com
+127.0.0.1	adplay.tudou.com
 127.0.0.1	ads-rolandgarros.com
 127.0.0.1	ads-stats.com
 127.0.0.1	ads.adap.tv
@@ -398,6 +479,7 @@
 127.0.0.1	ads.intergi.com
 127.0.0.1	ads.jetpackdigital.com
 127.0.0.1	ads.jlisting.jp
+127.0.0.1	ads.lmmob.com
 127.0.0.1	ads.lzjl.com
 127.0.0.1	ads.mefeedia.com
 127.0.0.1	ads.meropar.jp
@@ -432,6 +514,8 @@
 127.0.0.1	ads.ultimatesurrender.com
 127.0.0.1	ads.undertone.com
 127.0.0.1	ads.us.e-planning.net
+127.0.0.1	ads.waps.cn
+127.0.0.1	ads.wapx.cn
 127.0.0.1	ads.worldstarhiphop.com
 127.0.0.1	ads.xxxbunker.com
 127.0.0.1	ads.yimg.com
@@ -439,13 +523,11 @@
 127.0.0.1	ads01.com
 127.0.0.1	ads1.msads.net
 127.0.0.1	ads1.msn.com
-127.0.0.1	ads1.msn.com
 127.0.0.1	ads2ads.net
 127.0.0.1	ads2srv.com
 127.0.0.1	ads4cheap.com
 127.0.0.1	ads80.com
 127.0.0.1	adsclick.qq.com
-#127.0.0.1	adservices.google.com
 127.0.0.1	adsfile.qq.com
 127.0.0.1	adsgroup.qq.com
 127.0.0.1	adshmct.qq.com
@@ -457,36 +539,48 @@
 127.0.0.1	adstextview.qq.com
 127.0.0.1	adsview.qq.com
 127.0.0.1	adsview2.qq.com
-127.0.0.1	ad.allyes.cn
 127.0.0.1	adver.pengyou.com
-#127.0.0.1	adwords.google.com
-#127.0.0.1	adwords.google.sk
+127.0.0.1	advstat.xunlei.com
 127.0.0.1	adx.g.doubleclick.net
-#127.0.0.1	afd.l.google.com
 127.0.0.1	affiliate.2mdn.net
-#127.0.0.1	afs.googleadservices.com
+127.0.0.1	afp.qiyi.com
 127.0.0.1	amn.doubleclick.net
 127.0.0.1	analytics.admob.com
+127.0.0.1	analytics.ku6.com
+127.0.0.1	aos.gw.youmi.net
 127.0.0.1	api.admob.com
+127.0.0.1	api.admob.com
+127.0.0.1	api.airpush.com
 127.0.0.1	apps5.oingo.com
+127.0.0.1	appsrv1.madserving.cn
+127.0.0.1	ashow.pcpop.com
+127.0.0.1	at-img1.tdimg.com
+127.0.0.1	at-img2.tdimg.com
+127.0.0.1	at-img3.tdimg.com
+127.0.0.1	atm.youku.com
 127.0.0.1	b.admob.com
 127.0.0.1	baidutv.baidu.com
 127.0.0.1	banlv.baidu.com
 127.0.0.1	bar.baidu.com
+127.0.0.1	bill.agent.56.com
+127.0.0.1	bill.agent.v-56.com
+127.0.0.1	biz5.sandai.net
 127.0.0.1	bm.alimama.cn
 127.0.0.1	bmvip.alimama.cn
-#127.0.0.1	buttons.googlesyndication.com
 127.0.0.1	c.admob.com
 127.0.0.1	c.baidu.com
 127.0.0.1	c.l.qq.com
 127.0.0.1	c2.l.qq.com
+127.0.0.1	cache.adm.cnzz.net
+127.0.0.1	casting.openv.com
 127.0.0.1	cb.alimama.cn
 127.0.0.1	cb.baidu.com
-#127.0.0.1	cbjs.baidu.com
 127.0.0.1	cc-dt.com
+127.0.0.1	cctv.adsunion.com
+127.0.0.1	cctv.adsunion.com
+127.0.0.1	cfg.adsmogo.com
 127.0.0.1	cjhq.baidu.com
-#127.0.0.1	click.mz.simba.taobao.com
-#127.0.0.1	click.tz.simba.taobao.com
+127.0.0.1	click.am1.adm.cnzz.net
 127.0.0.1	clickserve.cc-dt.com
 127.0.0.1	clickserve.dartsearch.net
 127.0.0.1	clickserve.eu.dartsearch.net
@@ -494,26 +588,28 @@
 127.0.0.1	clickserve.us2.dartsearch.net
 127.0.0.1	cm.g.doubleclick.net
 127.0.0.1	cmweb.ilike.alibaba.com
-#127.0.0.1	count.taobao.com
-#127.0.0.1	cpc.click.alimama.com
+127.0.0.1	cn.ad.adon.vpon.com
+127.0.0.1	cn.img.adon.vpon.com
 127.0.0.1	cpm.admob.com
 127.0.0.1	cpm2.admob.com
 127.0.0.1	cpro.baidu.com
 127.0.0.1	creative.cc-dt.com
 127.0.0.1	creatives.doubleclick.net
 127.0.0.1	d.admob.com
+127.0.0.1	d.cntv.cn
+127.0.0.1	d.wiyun.com
 127.0.0.1	dart-apac.l.doubleclick.net
+127.0.0.1	dcads.sina.com.cn
 127.0.0.1	dfp.doubleclick.net
-#127.0.0.1	dl.client.baidu.com
 127.0.0.1	dmtracking.alibaba.com
 127.0.0.1	dmtracking2.alibaba.com
-#127.0.0.1	domains.googlesyndication.com
 127.0.0.1	doubleclick.com
 127.0.0.1	doubleclick.de
 127.0.0.1	doubleclick.ne.jp
 127.0.0.1	doubleclick.net
 127.0.0.1	doubleclick.shockwave.com
 127.0.0.1	dr.soso.com
+127.0.0.1	drmcmm.baidu.com
 127.0.0.1	drmcmm.baidu.com
 127.0.0.1	dzl.baidu.com
 127.0.0.1	e.admob.com
@@ -524,9 +620,10 @@
 127.0.0.1	f.admob.com
 127.0.0.1	f.qstatic.com
 127.0.0.1	feedads.g.doubleclick.net
-#127.0.0.1	feedads.googleadservices.com
 127.0.0.1	fls.doubleclick.net
 127.0.0.1	fls.uk.doubleclick.net
+127.0.0.1	focusbaiduafp.allyes.com
+127.0.0.1	focusbaiduafp.allyes.com
 127.0.0.1	fodder.qq.com
 127.0.0.1	fodder.tc.qq.com
 127.0.0.1	fw.qq.com
@@ -536,51 +633,40 @@
 127.0.0.1	ge-0-0-1-edge1.sc9.admob.com
 127.0.0.1	ge-0-0-43-crs1.sc9.admob.com
 127.0.0.1	gimg.baidu.com
-#127.0.0.1	googleads.g.doubleclick.net
-#127.0.0.1	googleads2.g.doubleclick.net
-#127.0.0.1	googleadservices.com
-#127.0.0.1	googleanalytlcs.com
-#127.0.0.1	googleanalytlcs.net
-#127.0.0.1	googlesyndication.com
-#127.0.0.1	gouwu.alimama.com
 127.0.0.1	guanjia.baidu.com
+127.0.0.1	gug.ku6cdn.com
+127.0.0.1	gw.youmi.net
 127.0.0.1	h.admob.com
-#127.0.0.1	haibao.huoban.taobao.com
 127.0.0.1	hc.baidu.com
+127.0.0.1	hermes.airad.com
 127.0.0.1	hm.baidu.com
 127.0.0.1	hm.l.qq.com
+127.0.0.1	html.atm.youku.com
 127.0.0.1	httpring.qq.com
 127.0.0.1	hz.mmstat.com
 127.0.0.1	i.admob.com
 127.0.0.1	iebar.baidu.com
 127.0.0.1	ikcode.baidu.com
-#127.0.0.1	imageads.googleadservices.com
-#127.0.0.1	imageads1.googleadservices.com
-#127.0.0.1	imageads2.googleadservices.com
-#127.0.0.1	imageads3.googleadservices.com
-#127.0.0.1	imageads4.googleadservices.com
-#127.0.0.1	imageads5.googleadservices.com
-#127.0.0.1	imageads6.googleadservices.com
-#127.0.0.1	imageads7.googleadservices.com
-#127.0.0.1	imageads8.googleadservices.com
-#127.0.0.1	imageads9.googleadservices.com
+127.0.0.1	images.sohu.com
 127.0.0.1	imc.l.qq.com
-#127.0.0.1	img.alimama.cn
-#127.0.0.1	ir.doubleclick.net
-#127.0.0.1	iv.doubleclick.net
+127.0.0.1	imp.adsmogo.com
+127.0.0.1	iwstat.tudou.com
 127.0.0.1	j.admob.com
 127.0.0.1	jingjia.qq.com
 127.0.0.1	jzclick.soso.com
 127.0.0.1	k.admob.com
+127.0.0.1	ku6.allyes.com
+127.0.0.1	ku6afp.allyes.com
 127.0.0.1	l.admob.com
 127.0.0.1	l.qq.com
 127.0.0.1	l2.l.qq.com
 127.0.0.1	ln.doubleclick.net
-#127.0.0.1	log.mm.vip.cnz.alimama.com
+127.0.0.1	lstat.youku.com
 127.0.0.1	m.admob.com
 127.0.0.1	m.de.2mdn.net
 127.0.0.1	m.doubleclick.net
 127.0.0.1	m.fr.2mdn.net
+127.0.0.1	m.openv.tv
 127.0.0.1	m.uk.2mdn.net
 127.0.0.1	m.us.doubleclick.net
 127.0.0.1	m1.2mdn.net
@@ -590,12 +676,26 @@
 127.0.0.1	m2.doubleclick.net
 127.0.0.1	m3.2mdn.net
 127.0.0.1	ma.baidu.com
+127.0.0.1	ma.baidu.com
+127.0.0.1	mangler1.generals.ea.com
+127.0.0.1	mangler10.generals.ea.com
+127.0.0.1	mangler2.generals.ea.com
+127.0.0.1	mangler3.generals.ea.com
+127.0.0.1	mangler4.generals.ea.com
+127.0.0.1	mangler5.generals.ea.com
+127.0.0.1	mangler6.generals.ea.com
+127.0.0.1	mangler7.generals.ea.com
+127.0.0.1	mangler8.generals.ea.com
+127.0.0.1	mangler9.generals.ea.com
+127.0.0.1	mcfg.sandai.net
 127.0.0.1	media.admob.com
+127.0.0.1	mm.admob.com
 127.0.0.1	mm.admob.com
 127.0.0.1	mm1.vip.sc1.admob.com
 127.0.0.1	mmv.admob.com
 127.0.0.1	motifcdn.doubleclick.net
 127.0.0.1	motifcdn2.doubleclick.net
+127.0.0.1	mpv.sandai.net
 127.0.0.1	n.admob.com
 127.0.0.1	n3285ad.doubleclick.net
 127.0.0.1	n3349ad.doubleclick.net
@@ -609,47 +709,40 @@
 127.0.0.1	n609ad.doubleclick.net
 127.0.0.1	neirong.baidu.com
 127.0.0.1	nsclick.baidu.com
+127.0.0.1	nsclick.baidu.com
+127.0.0.1	nstat.tudou.com
 127.0.0.1	o.admob.com
 127.0.0.1	oimsgad.qq.com
 127.0.0.1	optimize.doubleclick.net
 127.0.0.1	optout.doubleclick.net
 127.0.0.1	p.admob.com
-#127.0.0.1	p.alimama.com
 127.0.0.1	p.l.qq.com
 127.0.0.1	p2.l.qq.com
 127.0.0.1	p3p.alibaba.com
 127.0.0.1	p3p.mmstat.com
 127.0.0.1	p4psearch.china.alibaba.com
-#127.0.0.1	pagead-dclk.l.google.com
-#127.0.0.1	pagead-tpc.l.google.com
-#127.0.0.1	pagead.google.com
-#127.0.0.1	pagead.googlesyndication.com
-#127.0.0.1	pagead.l.google.com
-#127.0.0.1	pagead1.googlesyndication.com
-#127.0.0.1	pagead2.googleadservices.com
-#127.0.0.1	pagead2.googlesyndication.com
-#127.0.0.1	pagead3.googlesyndication.com
-#127.0.0.1	pagead4.googlesyndication.com
-#127.0.0.1	pagead5.googlesyndication.com
 127.0.0.1	pagespeed.report.qq.com
 127.0.0.1	paix1.sc1.admob.com
-#127.0.0.1	partner.googleadservices.com
-#127.0.0.1	partnerad.l.doubleclick.net
-#127.0.0.1	partnerad.l.google.com
-#127.0.0.1	paypalssl.doubleclick.net
-#127.0.0.1	pindao.huoban.taobao.com
+127.0.0.1	pic.casee.cn
 127.0.0.1	pingfore.qq.com
 127.0.0.1	pingfore.soso.com
+127.0.0.1	pole.6rooms.com
 127.0.0.1	pos.baidu.com
-#127.0.0.1	pubads.g.doubleclick.net
+127.0.0.1	pp2.pptv.com
+127.0.0.1	pq.stat.ku6.com
+127.0.0.1	pro.letv.com
 127.0.0.1	q.admob.com
 127.0.0.1	qqlogo.qq.com
 127.0.0.1	qring-tms.qq.com
 127.0.0.1	qss-client.qq.com
 127.0.0.1	r.admob.com
+127.0.0.1	r.admob.com
+127.0.0.1	r.domob.cn
+127.0.0.1	r2.adwo.com
+127.0.0.1	rad.live.com
+127.0.0.1	rad.msn.com
 127.0.0.1	rd.intl.doubleclick.net
-#127.0.0.1	re.taobao.com
-#127.0.0.1	redirect.simba.taobao.com
+127.0.0.1	req.adsmogo.com
 127.0.0.1	rh.qq.com
 127.0.0.1	rich.qq.com
 127.0.0.1	rmcdn.2mdn.net
@@ -658,82 +751,102 @@
 127.0.0.1	rs2.qq.com
 127.0.0.1	s.admob.com
 127.0.0.1	s.baidu.com
-#127.0.0.1	s.click.alimama.com
-#127.0.0.1	s.click.taobao.com
+127.0.0.1	s.domob.cn
 127.0.0.1	s1.2mdn.net
 127.0.0.1	s2.video.doubleclick.net
-#127.0.0.1	s8.taobao.com
 127.0.0.1	sc1.admob.com
 127.0.0.1	sc9.admob.com
 127.0.0.1	scdown.qq.com
 127.0.0.1	se1.doubleclick.net
-#127.0.0.1	search8.taobao.com
 127.0.0.1	securepubads.g.doubleclick.net
+127.0.0.1	server1.adpolestar.net
 127.0.0.1	service.urchin.com
+127.0.0.1	servserv.generals.ea.com
 127.0.0.1	show-msgch.qq.com
+127.0.0.1	shrek.6.cn
+127.0.0.1	simba.6.cn
 127.0.0.1	sobar.baidu.com
 127.0.0.1	sobartop.baidu.com
 127.0.0.1	spcode.baidu.com
-#127.0.0.1	ssl.google-analytics.com
-#127.0.0.1	stat.simba.taobao.com
-#127.0.0.1	static.alimama.com
-#127.0.0.1	static.googleadsserving.cn
+127.0.0.1	spcode.baidu.com
+127.0.0.1	speed.lstat.youku.com
+127.0.0.1	st.vq.ku6.cn
+127.0.0.1	stat.56.com
+127.0.0.1	stat.gw.youmi.net
+127.0.0.1	stat.tudou.com
+127.0.0.1	stat.youku.com
+127.0.0.1	stat0.888.ku6.com
+127.0.0.1	stat1.888.ku6.com
+127.0.0.1	stat2.888.ku6.com
+127.0.0.1	stat2.corp.56.com
+127.0.0.1	stat3.888.ku6.com
+127.0.0.1	static.adwo.com
+127.0.0.1	static.ku6.com
+127.0.0.1	static.lstat.youku.com
+127.0.0.1	static.mediav.com
+127.0.0.1	static.wooboo.com.cn
+127.0.0.1	static.youmi.net
+127.0.0.1	stats.tudou.com
 127.0.0.1	survey.china.alibaba.com
-#127.0.0.1	sutao.alimama.com
 127.0.0.1	t.admob.com
-#127.0.0.1	t.alimama.com
 127.0.0.1	t.atpanel.com
 127.0.0.1	taobaoafp.allyes.cn
 127.0.0.1	taobaoafp.allyes.com
-#127.0.0.1	taoke.alimama.com
 127.0.0.1	tcss.qq.com
 127.0.0.1	tk.baidu.com
+127.0.0.1	tk.baidu.com
 127.0.0.1	tkweb.baidu.com
-#127.0.0.1	tms.taoke.alimama.com
 127.0.0.1	tongji.baidu.com
 127.0.0.1	toolbar.baidu.com
-#127.0.0.1	toolbar.google.com
 127.0.0.1	toolbar.soso.com
-#127.0.0.1	tpc.googlesyndication.com
 127.0.0.1	trace.qq.com
 127.0.0.1	tracker.baidu.com
-#127.0.0.1	tw.alimama.cn
 127.0.0.1	u.admob.com
+127.0.0.1	ubmcmm.baidustatic.com
+127.0.0.1	ucstat.baidu.com
 127.0.0.1	ucstat.baidu.com
 127.0.0.1	ulic.baidu.com
+127.0.0.1	uniclick.openv.com
+127.0.0.1	union.56.com
+127.0.0.1	union.6.cn
+127.0.0.1	union.baidu.com
 127.0.0.1	union.baidu.com
 127.0.0.1	unstat.baidu.com
+127.0.0.1	urchin.lstat.youku.com
+127.0.0.1	utility.baidu.com
 127.0.0.1	utility.baidu.com
 127.0.0.1	utk.baidu.com
-127.0.0.1	ubmcmm.baidustatic.com
+127.0.0.1	utk.baidu.com
+127.0.0.1	uvimage.56.com
 127.0.0.1	v.admob.com
+127.0.0.1	v0.stat.ku6.com
+127.0.0.1	v1.stat.ku6.com
+127.0.0.1	v16.56.com
+127.0.0.1	v2.stat.ku6.com
+127.0.0.1	v3.stat.ku6.com
 127.0.0.1	v3.toolbar.soso.com
-#127.0.0.1	video-stats.video.google.com
+127.0.0.1	valb.atm.youku.com
+127.0.0.1	valc.atm.youku.com
+127.0.0.1	valf.atm.youku.com
+127.0.0.1	valo.atm.youku.com
+127.0.0.1	valp.atm.youku.com
+127.0.0.1	vid.atm.youku.com
 127.0.0.1	w.admob.com
 127.0.0.1	w.l.qq.com
+127.0.0.1	walp.atm.youku.com
 127.0.0.1	wangmeng.baidu.com
+127.0.0.1	wap.casee.cn
 127.0.0.1	wm.baidu.com
-#127.0.0.1	www.alimama.com
+127.0.0.1	www.adview.cn
 127.0.0.1	www.appliedsemantics.com
 127.0.0.1	www.atpanel.com
 127.0.0.1	www.destinationurl.com
-#127.0.0.1	www.doubleclick.com
-#127.0.0.1	www.doubleclick.net
-#127.0.0.1	www.google-analytics.com
-#127.0.0.1	www.googleadservices.com
-#127.0.0.1	www.googlesyndication.com
-#127.0.0.1	www.googletagservices.com
 127.0.0.1	www.tao123.com
-#127.0.0.1	www.youtube-nocookie.com
 127.0.0.1	www1.vip.sc9.admob.com
-#127.0.0.1	www2.doubleclick.com
-#127.0.0.1	www3.doubleclick.com
-#127.0.0.1	www3.doubleclick.net
 127.0.0.1	www3.webhostingtalk.com
 127.0.0.1	x.admob.com
 127.0.0.1	y.admob.com
 127.0.0.1	z.admob.com
-#127.0.0.1	z.alimama.com
 #AdBlock END
 
 #ccFox.info START
@@ -2280,41 +2393,41 @@
 #Wikipedia END
 
 #Flickr START
-68.142.214.24	flickr.com
-66.196.66.157	www.flickr.com
+#68.142.214.24	flickr.com
+#66.196.66.157	www.flickr.com
 #209.191.121.31	up.flickr.com
-68.142.214.43	static.flickr.com
-209.191.105.102	adjax.flickr.yahoo.com
-98.136.43.76	geo.yahoo.com
-209.191.92.115	edit.yahoo.com
-124.108.120.124	sa.edit.yahoo.com
-124.108.97.193	login.yahoo.com
-66.163.168.247	open.login.yahoo.com
-68.142.196.57	c5.ah.yahoo.com
+#68.142.214.43	static.flickr.com
+#209.191.105.102	adjax.flickr.yahoo.com
+#98.136.43.76	geo.yahoo.com
+#209.191.92.115	edit.yahoo.com
+#124.108.120.124	sa.edit.yahoo.com
+#124.108.97.193	login.yahoo.com
+#66.163.168.247	open.login.yahoo.com
+#68.142.196.57	c5.ah.yahoo.com
 #98.137.88.88	d.yimg.com
 #68.142.250.161	l.yimg.com
 #96.6.93.227	s.yimg.com
-204.0.5.34	us.js2.yimg.com
-204.0.5.35	content.yieldmanager.edgesuite.net
-68.142.214.43	farm1.staticflickr.com
-69.147.90.159	farm2.staticflickr.com
-77.238.160.184	farm3.staticflickr.com
-76.13.18.77	farm4.staticflickr.com
-76.13.18.79	farm5.staticflickr.com
-98.136.171.208	farm6.staticflickr.com
-98.138.250.88	farm7.staticflickr.com
-69.147.90.159	sp1.farm2.staticflickr.com
-69.147.90.215	sp1.farm3.staticflickr.com
-76.13.18.77	ac4.farm4.staticflickr.com
-68.142.214.43	mud.farm1.staticflickr.com
-98.138.250.88	ne1.farm7.staticflickr.com
-98.137.205.236	bf1.farm3.staticflickr.com
-98.139.21.45	bf1.farm6.staticflickr.com
-98.139.235.135	bf1.farm7.staticflickr.com
-216.39.54.34	gq1.farm3.staticflickr.com
-67.195.19.62	gq1.farm4.staticflickr.com
-67.195.19.65	gq1.farm5.staticflickr.com
-98.136.171.208	gq1.farm6.staticflickr.com
+#204.0.5.34	us.js2.yimg.com
+#204.0.5.35	content.yieldmanager.edgesuite.net
+#68.142.214.43	farm1.staticflickr.com
+#69.147.90.159	farm2.staticflickr.com
+#77.238.160.184	farm3.staticflickr.com
+#76.13.18.77	farm4.staticflickr.com
+#76.13.18.79	farm5.staticflickr.com
+#98.136.171.208	farm6.staticflickr.com
+#98.138.250.88	farm7.staticflickr.com
+#69.147.90.159	sp1.farm2.staticflickr.com
+#69.147.90.215	sp1.farm3.staticflickr.com
+#76.13.18.77	ac4.farm4.staticflickr.com
+#68.142.214.43	mud.farm1.staticflickr.com
+#98.138.250.88	ne1.farm7.staticflickr.com
+#98.137.205.236	bf1.farm3.staticflickr.com
+#98.139.21.45	bf1.farm6.staticflickr.com
+#98.139.235.135	bf1.farm7.staticflickr.com
+#216.39.54.34	gq1.farm3.staticflickr.com
+#67.195.19.62	gq1.farm4.staticflickr.com
+#67.195.19.65	gq1.farm5.staticflickr.com
+#98.136.171.208	gq1.farm6.staticflickr.com
 #Flickr END
 
 #Twitter START
@@ -2573,6 +2686,7 @@
 64.233.185.141	chrome-devtools-frontend.appspot.com
 64.233.185.141	chrometophone.appspot.com
 64.233.185.141	evolutionofweb.appspot.com
+64.233.185.141	feedly-beta.appspot.com
 64.233.185.141	googcloudlabs.appspot.com
 64.233.185.141	gv-gadget.appspot.com
 64.233.185.141	lfe-alpo-gm.appspot.com
@@ -2860,19 +2974,20 @@
 74.125.207.189	chromoting-oauth.talkgadget.google.com
 74.125.207.189	chromoting-client.talkgadget.google.com
 74.125.207.189	wildcard-talkgadget.l.google.com
-210.242.125.98	relay.google.com
 64.233.168.17	mail.google.com
-64.233.185.102	play.google.com
-210.242.125.98	keep.google.com
 64.233.185.101	plus.google.com
 64.233.185.101	plus.url.google.com
 64.233.185.101	plusone.google.com
+210.242.125.98	play.google.com
+210.242.125.98	keep.google.com
+210.242.125.98	relay.google.com
 210.242.125.98	safebrowsing.cache.l.google.com
 210.242.125.98	safebrowsing.clients.google.com
 210.242.125.98	safebrowsing.google.com
 210.242.125.98	safebrowsing-cache.google.com
 210.242.125.98	developer.android.com
 210.242.125.98	market.android.com
+210.242.125.98	source.android.com
 #74.125.230.121	www.chromium.org
 #74.125.230.121	chromium.org
 #74.125.230.121	codereview.chromium.org
@@ -2894,7 +3009,6 @@
 210.242.125.98	appspot.l.google.com
 210.242.125.98	bks0.books.google.com
 210.242.125.98	bks1.books.google.com
-210.242.125.98	bks10.books.google.com
 210.242.125.98	bks2.books.google.com
 210.242.125.98	bks3.books.google.com
 210.242.125.98	bks4.books.google.com
@@ -2903,6 +3017,7 @@
 210.242.125.98	bks7.books.google.com
 210.242.125.98	bks8.books.google.com
 210.242.125.98	bks9.books.google.com
+210.242.125.98	bks10.books.google.com
 210.242.125.98	blogsearch.google.com
 210.242.125.98	books.google.com
 210.242.125.98	browserchannel-docs.l.google.com
