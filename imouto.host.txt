@@ -2,6 +2,37 @@
 #+UPDATE_TIME 2014-09-04 16:30:00
 #+MESSAGE
 #######################################################################
+46.51.216.186 duckduckgo.com
+69.90.210.7   ixquick.com
+69.90.210.7   s4-us4.ixquick.com
+127.0.0.1 www.duhang123.com
+127.0.0.1 duhang123.com
+127.0.0.1 youxi.baidu.com
+127.0.0.1 game.baidu.com
+127.0.0.1 www.xiu8.com
+127.0.0.1 tieba.xiu8.com
+127.0.0.1 xiu8.com
+127.0.0.1 image.cache.xiu8.com
+127.0.0.1 baidu.xiu8.com
+127.0.0.1 wanba.baidu.com
+127.0.0.1 p2.youxi.bdimg.com
+106.186.27.62 www.dmm.com
+106.186.27.62 www.dmm.co.jp
+106.186.27.62 www.akabeesoft2.com
+106.186.27.62 www.akabeesoft3.com
+106.186.27.62 www.akatsukiworks.com
+106.186.27.62 www.alicesoft.com
+106.186.27.62 www.cosmiccute.com
+106.186.27.62 www.hibiki-site.com
+106.186.27.62 www.minori.ph
+106.186.27.62 erogamescape.ddo.jp
+106.186.27.62 tenco.cc
+106.186.27.62 wheel-soft.com 
+#68.232.34.19 addons.cdn.mozilla.net  美国 EdgeCast网络公司CDN节点
+#93.184.215.191 addons.cdn.mozilla.net  美国 EdgeCast网络公司CDN节点
+#192.229.145.191 addons.cdn.mozilla.net  美国  EdgeCast网络公司CDN节点
+93.184.215.191 addons.cdn.mozilla.net
+93.184.215.191 mozorg.cdn.mozilla.net
 #
 #  imouto.host
 #
