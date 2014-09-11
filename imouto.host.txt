@@ -19,6 +19,10 @@
 203.84.197.26   www.flickr.com
 203.84.197.26   flickr.com
 203.84.197.27   api.flickr.com
+#+BEGIN
+#+UPDATE_TIME 2014-09-09 21:20:00
+#+MESSAGE
+#######################################################################
 46.51.216.186 duckduckgo.com
 46.51.216.186 icons.duckduckgo.com
 37.0.86.5   ixquick.com
