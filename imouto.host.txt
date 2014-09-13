@@ -2,6 +2,23 @@
 #+UPDATE_TIME 2014-09-09 21:20:00
 #+MESSAGE
 #######################################################################
+119.160.254.219 c1.staticflickr.com
+119.160.254.219 c2.staticflickr.com
+119.160.254.219 c3.staticflickr.com
+119.160.254.219 c4.staticflickr.com
+106.10.137.23   farm1.staticflickr.com
+106.10.137.23   farm2.staticflickr.com
+106.10.137.23   farm3.staticflickr.com
+106.10.137.23   farm4.staticflickr.com
+106.10.137.23   farm5.staticflickr.com
+106.10.137.23   farm6.staticflickr.com
+106.10.137.23   farm7.staticflickr.com
+106.10.137.23   farm8.staticflickr.com
+106.10.137.23   farm9.staticflickr.com
+124.108.101.10  up.flickr.com
+203.84.197.26   www.flickr.com
+203.84.197.26   flickr.com
+203.84.197.27   api.flickr.com
 46.51.216.186 duckduckgo.com
 46.51.216.186 icons.duckduckgo.com
 37.0.86.5   ixquick.com
