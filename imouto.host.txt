@@ -2,6 +2,10 @@
 #+UPDATE_TIME 2014-09-09 21:20:00
 #+MESSAGE
 #######################################################################
+208.69.40.100   page2rss.com
+208.69.40.100   cdn.page2rss.com 
+208.69.40.100   www.page2rss.com
+74.125.207.132  cjxlist1.googlecode.com
 119.160.254.219 c1.staticflickr.com
 119.160.254.219 c2.staticflickr.com
 119.160.254.219 c3.staticflickr.com
@@ -77,6 +81,8 @@
 127.0.0.1 baidu.xiu8.com
 127.0.0.1 wanba.baidu.com
 127.0.0.1 p2.youxi.bdimg.com
+127.0.0.1 static.pay.baidu.com
+127.0.0.1 tequan.baidu.co
 106.186.27.62 www.dmm.com
 106.186.27.62 www.dmm.co.jp
 106.186.27.62 www.akabeesoft2.com
