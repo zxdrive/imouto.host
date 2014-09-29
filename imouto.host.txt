@@ -1,5 +1,5 @@
 ﻿#+BEGIN
-#+UPDATE_TIME 2014-09-21 14:17:00
+#+UPDATE_TIME 2014-09-29 17:13:00
 #+MESSAGE
 #######################################################################
 #
@@ -10,9 +10,14 @@
 #  部署hosts文件前请注意文本编码和换行符格式，请勿直接对文件进行覆盖。
 #  错误报告前请尝试更新到最新版本，不接受老版本的错误报告。
 #
-#  #Ver : 2.14.0476 Sakura Chiyo
-#  #Update Time : 2014.09.21;14:17
+#  #Ver : 2.16.0481 Asata Shino
+#  #Update Time : 2014.09.29;17:13
 #  #Fix & Bug : 
+#  # 2.16.0481: 新看板娘：朝田诗乃(Asata Shino)。
+#  # 2.15.0480: 尝试修复Dropbox移动客户端。
+#  # 2.15.0479: 其它BUG修正。
+#  # 2.14.0478: 补充广告屏蔽。
+#  # 2.14.0477: 尝试修复Dropbox移动客户端。
 #  # 2.14.0476: 修复谷歌硬盘。
 #  # 2.13.0475: 尝试加速维基百科。
 #  # 2.13.0475: 其它谷歌域名修复和补充。
@@ -215,6 +220,7 @@
 #  # 0.8.0: Facebook for Android 2.X版客户端仍不稳定，请尝试使用1.X版客户端或Web版客户端。
 #
 #  #看板娘 : 
+#  # 2.16.0481: 朝田诗乃(Asata Shino)，《刀剑神域》
 #  # 2.02.0446: 佐仓千代(Sakura Chiyo)，《月刊少女野崎君》
 #  # 1.82.0416: 香风智乃(Kafuu Chino)，《请问您今天要来点兔子吗？》
 #  # 1.40.0171: 缪雪儿·佛兰(Myuseru foaran)，《萌萌侵略者》
@@ -642,6 +648,7 @@
 127.0.0.1	ge-0-0-1-edge1.sc9.admob.com
 127.0.0.1	ge-0-0-43-crs1.sc9.admob.com
 127.0.0.1	gimg.baidu.com
+127.0.0.1	googleads.g.doubleclick.net
 127.0.0.1	guanjia.baidu.com
 127.0.0.1	gug.ku6cdn.com
 127.0.0.1	gw.youmi.net
@@ -856,6 +863,16 @@
 127.0.0.1	x.admob.com
 127.0.0.1	y.admob.com
 127.0.0.1	z.admob.com
+127.0.0.1	ads.mopub.com
+127.0.0.1	dock.inmobi.com
+127.0.0.1	e-ltvp.inmobi.com
+127.0.0.1	i.w.inmobi.com
+127.0.0.1	f1.p0y.com
+127.0.0.1	f2.p0y.com
+127.0.0.1	f3.p0y.com
+127.0.0.1	f4.p0y.com
+127.0.0.1	file.ipinyou.com.cn
+127.0.0.1	stats.ipinyou.com
 #AdBlock END
 
 #ccFox.info START
@@ -933,8 +950,8 @@
 66.155.9.238	stats.wordpress.com
 66.155.9.238	wpcom.wordpress.com
 66.155.9.238	lucifr.wordpress.com
-72.233.2.58	botd2.wordpress.com
-72.233.2.58	r-login.wordpress.com
+192.0.81.250 	botd2.wordpress.com
+192.0.81.250 	r-login.wordpress.com
 #WordPress END
 
 #Box.com START
@@ -952,6 +969,10 @@
 #Dropbox START
 108.160.165.147	dropbox.com
 108.160.165.147	www.dropbox.com
+108.160.166.144	api.dropbox.com
+108.160.166.126	api-notify.dropbox.com
+54.243.226.170	api-content.dropbox.com
+108.160.166.61	api-d.dropbox.com
 108.160.166.140	client-lb.dropbox.com
 108.160.172.65	block.dropbox.com
 108.160.165.253	d.dropbox.com
@@ -2459,12 +2480,12 @@
 23.44.161.224	platform.twitter.com
 23.44.161.224	preview.cdn.twitter.com
 199.16.158.18	image-proxy-origin.twimg.com
-199.96.57.17	syndication.twitter.com
-199.96.57.17	syndication.twimg.com
-199.96.57.17	cdn.syndication.twitter.com
-199.96.57.17	cdn.syndication.twimg.com
-199.96.57.17	syndication-o.twitter.com
-199.96.57.17	syndication-o.twimg.com
+199.59.150.46	syndication.twitter.com
+199.59.150.46	syndication.twimg.com
+199.59.150.46	cdn.syndication.twitter.com
+199.59.150.46	cdn.syndication.twimg.com
+199.59.150.46	syndication-o.twitter.com
+199.59.150.46	syndication-o.twimg.com
 117.18.237.139	a0.twimg.com
 117.18.237.139	a1.twimg.com
 117.18.237.139	p.twimg.com
@@ -2485,23 +2506,23 @@
 199.16.158.20	upload.twitter.com
 199.16.158.10	dev.twitter.com
 199.16.158.81	userstream.twitter.com
-209.17.68.209	oi40.tinypic.com
-209.17.68.209	oi41.tinypic.com
-209.17.68.209	oi42.tinypic.com
-209.17.68.209	oi43.tinypic.com
-209.17.68.209	oi44.tinypic.com
-209.17.68.209	oi45.tinypic.com
-209.17.68.209	oi46.tinypic.com
-209.17.68.209	oi47.tinypic.com
-209.17.68.209	oi48.tinypic.com
-209.17.68.209	oi49.tinypic.com
-209.17.68.209	oi50.tinypic.com
-209.17.68.209	oi51.tinypic.com
-209.17.68.209	oi52.tinypic.com
-209.17.68.209	oi53.tinypic.com
-209.17.68.209	oi54.tinypic.com
-209.17.68.209	oi55.tinypic.com
-209.17.68.209	oi56.tinypic.com
+#209.17.68.209	oi40.tinypic.com
+#209.17.68.209	oi41.tinypic.com
+#209.17.68.209	oi42.tinypic.com
+#209.17.68.209	oi43.tinypic.com
+#209.17.68.209	oi44.tinypic.com
+#209.17.68.209	oi45.tinypic.com
+#209.17.68.209	oi46.tinypic.com
+#209.17.68.209	oi47.tinypic.com
+#209.17.68.209	oi48.tinypic.com
+#209.17.68.209	oi49.tinypic.com
+#209.17.68.209	oi50.tinypic.com
+#209.17.68.209	oi51.tinypic.com
+#209.17.68.209	oi52.tinypic.com
+#209.17.68.209	oi53.tinypic.com
+#209.17.68.209	oi54.tinypic.com
+#209.17.68.209	oi55.tinypic.com
+#209.17.68.209	oi56.tinypic.com
 96.127.160.130	twitpic.com
 #96.127.160.130	m1.twitpic.com
 96.127.160.130	web1.twitpic.com
@@ -2553,7 +2574,7 @@
 61.213.189.98	b.static.ak.facebook.com
 23.5.157.177	s-static.ak.fbcdn.net
 184.26.194.110	s-static.ak.facebook.com
-69.171.247.22	s-static.facebook.com
+69.171.235.9	s-static.facebook.com
 61.213.189.98	static.ak.facebook.com
 61.213.189.113	creative.ak.fbcdn.net
 23.3.68.113	external.ak.fbcdn.net
@@ -3538,17 +3559,15 @@
 210.242.125.98	t7.gstatic.com
 #Gstatic↑
 #Google other↓
-64.233.185.113	apis.google.com
-64.233.185.113	talkgadget.google.com
-74.125.207.189	chromoting-host.talkgadget.google.com
-74.125.207.189	chromoting-oauth.talkgadget.google.com
-74.125.207.189	chromoting-client.talkgadget.google.com
-74.125.207.189	wildcard-talkgadget.l.google.com
-64.233.168.17	mail.google.com
-64.233.185.112	adwords.google.com
+64.233.185.17	mail.google.com
+210.242.125.98	play.google.com
+64.233.185.101	history.google.com
 64.233.185.101	plus.google.com
 64.233.185.101	plus.url.google.com
 64.233.185.101	plusone.google.com
+64.233.185.112	adwords.google.com
+64.233.185.113	apis.google.com
+64.233.185.113	talkgadget.google.com
 64.233.185.121	www.gwtproject.org
 64.233.185.82	www.googlesource.com﻿
 64.233.185.82	googlesource.com
@@ -3557,6 +3576,10 @@
 64.233.185.82	gerrit.googlesource.com
 64.233.185.82	kernel.googlesource.com
 64.233.185.82	gwt.googlesource.com
+74.125.207.189	chromoting-host.talkgadget.google.com
+74.125.207.189	chromoting-oauth.talkgadget.google.com
+74.125.207.189	chromoting-client.talkgadget.google.com
+74.125.207.189	wildcard-talkgadget.l.google.com
 74.125.207.191	www.blogger.com
 74.125.207.132	google-opensource.blogspot.com
 74.125.207.132	googleblog.blogspot.com
@@ -3567,7 +3590,18 @@
 74.125.207.132	2.bp.blogspot.com
 74.125.207.132	3.bp.blogspot.com
 74.125.207.132	4.bp.blogspot.com
-210.242.125.98	play.google.com
+74.125.230.127	stun.l.google.com
+74.125.230.127	alt1.stun.l.google.com
+74.125.230.127	alt2.stun.l.google.com
+74.125.230.127	alt3.stun.l.google.com
+74.125.230.127	alt4.stun.l.google.com
+74.125.230.127	alt5.stun.l.google.com
+#74.125.230.121	www.chromium.org
+#74.125.230.121	chromium.org
+#74.125.230.121	codereview.chromium.org
+#74.125.230.121	dev.chromium.org
+#210.242.125.98	mobile.l.google.com
+#210.242.125.98	mobile-gtalk.l.google.com
 210.242.125.98	keep.google.com
 210.242.125.98	relay.google.com
 210.242.125.98	safebrowsing.cache.l.google.com
@@ -3577,18 +3611,6 @@
 210.242.125.98	developer.android.com
 210.242.125.98	market.android.com
 210.242.125.98	source.android.com
-#74.125.230.121	www.chromium.org
-#74.125.230.121	chromium.org
-#74.125.230.121	codereview.chromium.org
-#74.125.230.121	dev.chromium.org
-#210.242.125.98	mobile.l.google.com
-#210.242.125.98	mobile-gtalk.l.google.com
-74.125.230.127	stun.l.google.com
-74.125.230.127	alt1.stun.l.google.com
-74.125.230.127	alt2.stun.l.google.com
-74.125.230.127	alt3.stun.l.google.com
-74.125.230.127	alt4.stun.l.google.com
-74.125.230.127	alt5.stun.l.google.com
 210.242.125.98	wallet.google.com
 210.242.125.98	answers.google.com
 210.242.125.98	admin.google.com
