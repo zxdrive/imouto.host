@@ -1,8 +1,7 @@
 imouto.host
 ===========
 
-### 这里是一个 imouto.host 在 Github 的镜像。
+这里由 imouto.host 官方进行维护，会在第一时间更新。
 
-1. **反馈问题请到[论坛](https://plus.google.com/communities/111265655058678013030)反馈**
-2. 每当作者更新版本，我会尽快跟进更新这里而不是 Gist。
-3. 本镜像已经征得作者同意，只用来方便无法访问 Google+ 的用户获取。喷子们请靠边站。
+官方站点：[G+主页](https://plus.google.com/100484131192950935968/about)，[G+社群](https://plus.google.com/communities/111265655058678013030)
+
