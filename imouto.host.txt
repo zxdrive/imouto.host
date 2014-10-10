@@ -4763,6 +4763,7 @@
 210.242.125.108	static.panoramio.com
 210.242.125.108	www.webmproject.org
 210.242.125.108	golang.org
+210.242.125.108	play.golang.org
 #Google other↑
 #Google Play↓
 #203.208.46.89	r1---sn-a5m7znee.c.android.clients.google.com
