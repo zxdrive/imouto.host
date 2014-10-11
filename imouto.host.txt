@@ -1,5 +1,5 @@
 #+BEGIN
-#+UPDATE_TIME 2014-10-08 15:08:00
+#+UPDATE_TIME 2014-10-11 10:26:00
 #+MESSAGE
 #######################################################################
 #
@@ -7,12 +7,20 @@
 #
 #  主页：https://plus.google.com/100484131192950935968/about
 #  社群：https://plus.google.com/communities/111265655058678013030
+#  GitHub：https://github.com/zxdrive/imouto.host
 #  部署hosts文件前请注意文本编码和换行符格式，请勿直接对文件进行覆盖。
 #  错误报告前请尝试更新到最新版本，不接受老版本的错误报告。
 #
-#  #Ver : 2.17.0489 Asata Shino
-#  #Update Time : 2014.10.08;15:08
+#  #Ver : 2.18.0501 Asata Shino
+#  #Update Time : 2014.10.11;10:26
 #  #Fix & Bug : 
+#  # 2.18.0501: 尝试加速G+、Gmail等。
+#  # 2.17.0498: 修复Ixquick，Startpage，GreatFire，感谢GitHub网友wenketel。
+#  # 2.17.0495: 修复和尝试加速谷歌图床，感谢GitHub网友wenketel。
+#  # 2.17.0493: 补充Flickr域名，感谢网友Jack YouOSX。
+#  # 2.17.0492: 加速DuckDuckGo，感谢GitHub网友wenketel。
+#  # 2.17.0491: 增加play.golang.org映射，感谢GitHub网友ljyf5593。
+#  # 2.17.0490: 补充数个谷歌域名，感谢网友Pluto Hades。
 #  # 2.17.0489: 修复FlipBoard，感谢网友Lee Chieh Chan。
 #  # 2.16.0488: 修复DuckDuckGo，感谢网友Christin Chow、Jack YouOSX。
 #  # 2.16.0487: 修复数个格式问题，感谢网友u yao。
@@ -2435,8 +2443,10 @@
 69.147.76.173	flickr.com
 124.108.101.10	www.flickr.com
 121.101.144.116	up.flickr.com
-106.10.137.23	static.flickr.com
 121.101.144.112	api.flickr.com
+106.10.137.23	static.flickr.com
+208.71.44.31	secure.flickr.com
+208.71.44.31	m.flickr.com
 #98.136.43.76	geo.yahoo.com
 #209.191.92.115	edit.yahoo.com
 #124.108.97.193	login.yahoo.com
@@ -2469,6 +2479,68 @@
 #67.195.19.65	gq1.farm5.staticflickr.com
 #98.136.171.208	gq1.farm6.staticflickr.com
 #Flickr END
+
+#Ixquick START
+64.71.175.133	www.ixquick.com
+64.71.175.133	ixquick.com
+64.71.175.133	support.ixquick.com
+64.71.175.133	s19.ixquick.com
+64.71.175.133	s1-eu5.ixquick.com
+64.71.175.133	s2-eu5.ixquick.com
+64.71.175.133	s3-eu5.ixquick.com
+64.71.175.133	s4-eu5.ixquick.com
+64.71.175.133	s5-eu5.ixquick.com
+64.71.175.133	s6-eu5.ixquick.com
+64.71.175.133	s7-eu5.ixquick.com
+64.71.175.133	s8-eu5.ixquick.com
+64.71.175.133	s9-eu5.ixquick.com
+64.71.175.133	s10-eu5.ixquick.com
+64.71.175.133	s11-eu5.ixquick.com
+64.71.175.133	s12-eu5.ixquick.com
+64.71.175.133	s13-eu2.ixquick.com
+64.71.175.133	s14-eu2.ixquick.com
+64.71.175.133	s15-eu2.ixquick.com
+64.71.175.133	s16-eu2.ixquick.com
+64.71.175.133	s17-eu2.ixquick.com
+64.71.175.133	s18-eu2.ixquick.com
+64.71.175.133	s19-eu2.ixquick.com
+64.71.175.133	s20-eu2.ixquick.com
+64.71.175.133	s1-us5.ixquick.com
+64.71.175.133	s2-us5.ixquick.com
+64.71.175.133	s3-us5.ixquick.com
+64.71.175.133	s4-us5.ixquick.com
+64.71.175.133	s5-us5.ixquick.com
+64.71.175.133	s6-us5.ixquick.com
+64.71.175.133	s7-us5.ixquick.com
+64.71.175.133	s8-us5.ixquick.com
+64.71.175.133	s9-us5.ixquick.com
+64.71.175.133	s10-us5.ixquick.com
+64.71.175.133	s11-us5.ixquick.com
+64.71.175.133	s12-us5.ixquick.com
+64.71.175.133	s13-us2.ixquick.com
+64.71.175.133	s14-us2.ixquick.com
+64.71.175.133	s15-us2.ixquick.com
+64.71.175.133	s16-us2.ixquick.com
+64.71.175.133	s17-us2.ixquick.com
+64.71.175.133	s18-us2.ixquick.com
+64.71.175.133	s19-us2.ixquick.com
+64.71.175.133	s20-us2.ixquick.com
+#Ixquick END
+
+#Startpage START
+37.0.88.36	startpage.com
+37.0.88.36	eu.startpage.com
+37.0.88.36	www.startpage.com
+37.0.88.36	support.startpage.com
+37.0.88.36	blog.startpage.com
+#Startpage END
+
+#GreatFire START
+107.20.178.162	greatfire.org
+107.20.178.162	www.greatfire.org
+107.20.178.162	en.greatfire.org
+107.20.178.162	zh.greatfire.org
+#GreatFire END
 
 #Twitter START
 199.16.158.8	twitter.com
@@ -2625,11 +2697,12 @@
 #FlipBoard END
 
 #DuckDuckGo START
-184.72.115.86	search.duckduckgo.com
-184.72.115.86	duckduxkgo.com
+46.51.216.187	duckduckgo.com
+46.51.216.187	www.duckduckgo.com
+46.51.216.187	search.duckduckgo.com
 46.51.197.89	ac.duckduckgo.com
-176.34.155.20	icons.duckduckgo.com
-176.34.155.20	images.duckduckgo.com
+46.51.218.82	icons.duckduckgo.com
+46.51.218.82	images.duckduckgo.com
 #DuckDuckGo END
 
 #Google Services START
@@ -4240,6 +4313,7 @@
 74.125.207.132	doc-08-6g-docs.googleusercontent.com
 74.125.207.132	doc-0k-bk-docs.googleusercontent.com
 74.125.207.132	doc-10-6g-docs.googleusercontent.com
+74.125.207.132	doc-10-00-docs.googleusercontent.com
 #74.125.207.132	t.doc-0-0-sj.sj.googleusercontent.com
 74.125.207.132	images1-focus-opensocial.googleusercontent.com
 74.125.207.132	images2-focus-opensocial.googleusercontent.com
@@ -4264,13 +4338,19 @@
 74.125.207.132	images-lso-opensocial.googleusercontent.com
 74.125.207.132	images-blogger-opensocial.googleusercontent.com
 74.125.207.132	images-pos-opensocial.googleusercontent.com
-74.125.207.132	lh0.googleusercontent.com
-74.125.207.132	lh1.googleusercontent.com
-74.125.207.132	lh2.googleusercontent.com
-74.125.207.132	lh3.googleusercontent.com
-74.125.207.132	lh4.googleusercontent.com
-74.125.207.132	lh5.googleusercontent.com
-74.125.207.132	lh6.googleusercontent.com
+210.242.125.108	lh0.googleusercontent.com
+210.242.125.108	lh1.googleusercontent.com
+210.242.125.108	lh2.googleusercontent.com
+210.242.125.108	lh3.googleusercontent.com
+210.242.125.108	lh4.googleusercontent.com
+210.242.125.108	lh5.googleusercontent.com
+210.242.125.108	lh6.googleusercontent.com
+210.242.125.108	gp1.googleusercontent.com
+210.242.125.108	gp2.googleusercontent.com
+210.242.125.108	gp3.googleusercontent.com
+210.242.125.108	gp4.googleusercontent.com
+210.242.125.108	gp5.googleusercontent.com
+210.242.125.108	gp6.googleusercontent.com
 74.125.207.132	lh0.ggpht.com
 74.125.207.132	lh1.ggpht.com
 74.125.207.132	lh2.ggpht.com
@@ -4369,15 +4449,11 @@
 210.242.125.108	t7.gstatic.com
 #Gstatic↑
 #Google other↓
-64.233.185.17	mail.google.com
-210.242.125.108	play.google.com
+74.125.207.17	mail.google.com
 64.233.185.101	history.google.com
-64.233.185.101	plus.google.com
-64.233.185.101	plus.url.google.com
-64.233.185.101	plusone.google.com
 64.233.185.112	adwords.google.com
-64.233.185.113	apis.google.com
-64.233.185.113	talkgadget.google.com
+74.125.207.113	apis.google.com
+74.125.207.113	talkgadget.google.com
 64.233.185.121	www.gwtproject.org
 64.233.185.82	www.googlesource.com
 64.233.185.82	googlesource.com
@@ -4413,6 +4489,10 @@
 #74.125.230.121	dev.chromium.org
 #210.242.125.108	mobile.l.google.com
 #210.242.125.108	mobile-gtalk.l.google.com
+210.242.125.108	plus.google.com
+210.242.125.108	plus.url.google.com
+210.242.125.108	plusone.google.com
+210.242.125.108	play.google.com
 210.242.125.108	keep.google.com
 210.242.125.108	relay.google.com
 210.242.125.108	safebrowsing.cache.l.google.com
@@ -4763,6 +4843,7 @@
 210.242.125.108	static.panoramio.com
 210.242.125.108	www.webmproject.org
 210.242.125.108	golang.org
+210.242.125.108	play.golang.org
 #Google other↑
 #Google Play↓
 #203.208.46.89	r1---sn-a5m7znee.c.android.clients.google.com
