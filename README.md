@@ -16,3 +16,9 @@ imouto.host
 感谢[凤凰君](https://github.com/phoenixlzx)的一路支持。
 
 更多致谢，详见[imouto.host.txt](https://raw.githubusercontent.com/zxdrive/imouto.host/master/imouto.host.txt)。
+
+哥哥
+===========
+
+妹妹的身心都是属于哥哥的！
+我最爱尼酱了！
