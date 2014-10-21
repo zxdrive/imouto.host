@@ -1,5 +1,5 @@
 #+BEGIN
-#+UPDATE_TIME 2014-10-21 13:10:00
+#+UPDATE_TIME 2014-10-21 13:43:00
 #+MESSAGE
 #######################################################################
 #
@@ -11,9 +11,11 @@
 #  部署hosts文件前请注意文本编码和换行符格式，请勿直接对文件进行覆盖。
 #  错误报告前请尝试更新到最新版本，不接受老版本的错误报告。
 #
-#  #Ver : 2.20.0510 Asata Shino
-#  #Update Time : 2014.10.21;13:10
+#  #Ver : 2.21.0513 Asata Shino
+#  #Update Time : 2014.10.21;13:43
 #  #Fix & Bug : 
+#  # 2.21.0513: 尝试修复环聊图片。
+#  # 2.20.0511: 补充数个谷歌域名，感谢GitHub网友LGA1150。
 #  # 2.20.0510: 修复谷歌服务。
 #  # 2.19.0509: 补充数个谷歌域名。
 #  # 2.19.0507: 修复Facebook。
@@ -1101,11 +1103,11 @@
 69.171.237.25	zh-CN.facebook.com
 69.171.237.25	ldap.thefacebook.com
 69.171.237.25	graph.facebook.com
+69.171.237.25	upload.facebook.com
 69.171.237.25	vupload.facebook.com
 69.171.237.25	developers.facebook.com
 69.171.237.25	connect.facebook.net
 69.171.237.25	creativeupload.facebook.com
-69.171.237.25	upload.facebook.com
 69.171.237.25	bigzipfiles.facebook.com
 69.171.237.25	star.facebook.com
 69.171.235.13	bigzipfiles.facebook.com
@@ -1316,9 +1318,9 @@
 210.242.125.114	base4.googlehosted.com
 210.242.125.114	base5.googlehosted.com
 210.242.125.114	clients.l.google.com
-210.242.125.114	clients1.google.com
-210.242.125.114	clients2.google.com
-210.242.125.114	clients3.google.com
+64.233.166.139	clients1.google.com
+64.233.166.139	clients2.google.com
+64.233.166.139	clients3.google.com
 64.233.166.139	clients4.google.com
 64.233.166.139	clients5.google.com
 64.233.166.139	clients6.google.com
@@ -1343,6 +1345,7 @@
 #Youtube↓
 64.233.166.100	accounts.youtube.com
 64.233.166.100	youtube.com
+64.233.166.100	youtu.be
 64.233.166.100	www.youtube.com
 64.233.166.100	m.youtube.com
 64.233.166.100	insight.youtube.com
@@ -2629,6 +2632,7 @@
 64.233.166.100	upload.client.google.com
 64.233.166.117	upload.google.com
 64.233.166.117	upload.docs.google.com
+64.233.166.117	upload.photos.google.com
 64.233.166.117	upload.drive.google.com
 64.233.166.117	upload.video.google.com
 64.233.166.117	upload.youtube.com
@@ -2902,13 +2906,13 @@
 64.233.166.132	images-lso-opensocial.googleusercontent.com
 64.233.166.132	images-blogger-opensocial.googleusercontent.com
 64.233.166.132	images-pos-opensocial.googleusercontent.com
-210.242.125.114	lh0.googleusercontent.com
-210.242.125.114	lh1.googleusercontent.com
-210.242.125.114	lh2.googleusercontent.com
-210.242.125.114	lh3.googleusercontent.com
-210.242.125.114	lh4.googleusercontent.com
-210.242.125.114	lh5.googleusercontent.com
-210.242.125.114	lh6.googleusercontent.com
+64.233.166.132	lh0.googleusercontent.com
+64.233.166.132	lh1.googleusercontent.com
+64.233.166.132	lh2.googleusercontent.com
+64.233.166.132	lh3.googleusercontent.com
+64.233.166.132	lh4.googleusercontent.com
+64.233.166.132	lh5.googleusercontent.com
+64.233.166.132	lh6.googleusercontent.com
 210.242.125.114	gp1.googleusercontent.com
 210.242.125.114	gp2.googleusercontent.com
 210.242.125.114	gp3.googleusercontent.com
@@ -3019,6 +3023,7 @@
 64.233.166.112	adwords.google.com
 64.233.166.100	apis.google.com
 64.233.166.100	talkgadget.google.com
+64.233.166.192	supl.google.com
 64.233.166.121	www.gwtproject.org
 64.233.166.82	www.googlesource.com
 64.233.166.82	googlesource.com
