@@ -1,5 +1,5 @@
 #+BEGIN
-#+UPDATE_TIME 2014-10-21 13:43:00
+#+UPDATE_TIME 2014-10-21 13:55:00
 #+MESSAGE
 #######################################################################
 #
@@ -11,9 +11,10 @@
 #  部署hosts文件前请注意文本编码和换行符格式，请勿直接对文件进行覆盖。
 #  错误报告前请尝试更新到最新版本，不接受老版本的错误报告。
 #
-#  #Ver : 2.21.0513 Asata Shino
-#  #Update Time : 2014.10.21;13:43
+#  #Ver : 2.21.0514 Asata Shino
+#  #Update Time : 2014.10.21;13:55
 #  #Fix & Bug : 
+#  # 2.21.0514: 尝试修复环聊图片。
 #  # 2.21.0513: 尝试修复环聊图片。
 #  # 2.20.0511: 补充数个谷歌域名，感谢GitHub网友LGA1150。
 #  # 2.20.0510: 修复谷歌服务。
@@ -1317,7 +1318,7 @@
 210.242.125.114	base3.googlehosted.com
 210.242.125.114	base4.googlehosted.com
 210.242.125.114	base5.googlehosted.com
-210.242.125.114	clients.l.google.com
+64.233.166.113	clients.l.google.com
 64.233.166.139	clients1.google.com
 64.233.166.139	clients2.google.com
 64.233.166.139	clients3.google.com
