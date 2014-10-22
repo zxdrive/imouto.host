@@ -1,5 +1,5 @@
 #+BEGIN
-#+UPDATE_TIME 2014-10-21 13:55:00
+#+UPDATE_TIME 2014-10-22 16:29:00
 #+MESSAGE
 #######################################################################
 #
@@ -11,9 +11,10 @@
 #  部署hosts文件前请注意文本编码和换行符格式，请勿直接对文件进行覆盖。
 #  错误报告前请尝试更新到最新版本，不接受老版本的错误报告。
 #
-#  #Ver : 2.21.0514 Asata Shino
-#  #Update Time : 2014.10.21;13:55
+#  #Ver : 2.21.0515 Asata Shino
+#  #Update Time : 2014.10.22;16:29
 #  #Fix & Bug : 
+#  # 2.21.0515: 修复Gmail联系人。
 #  # 2.21.0514: 尝试修复环聊图片。
 #  # 2.21.0513: 尝试修复环聊图片。
 #  # 2.20.0511: 补充数个谷歌域名，感谢GitHub网友LGA1150。
@@ -3018,8 +3019,8 @@
 210.242.125.114	t7.gstatic.com
 #Gstatic↑
 #Google other↓
-64.233.166.189	mail.google.com
-64.233.166.189	isolated.mail.google.com
+74.125.201.17	mail.google.com
+74.125.201.17	isolated.mail.google.com
 64.233.166.101	history.google.com
 64.233.166.112	adwords.google.com
 64.233.166.100	apis.google.com
