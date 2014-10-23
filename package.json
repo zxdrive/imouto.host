@@ -1,0 +1,11 @@
+{
+  "name": "imouto.host",
+  "version": "0.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "request": "^2.45.0"
+  }
+}
