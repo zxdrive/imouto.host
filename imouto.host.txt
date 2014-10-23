@@ -1,5 +1,5 @@
 #+BEGIN
-#+UPDATE_TIME 2014-10-23 14:31:00
+#+UPDATE_TIME 2014-10-23 14:39:00
 #+MESSAGE
 #######################################################################
 #
@@ -11,9 +11,10 @@
 #  部署hosts文件前请注意文本编码和换行符格式，请勿直接对文件进行覆盖。
 #  错误报告前请尝试更新到最新版本，不接受老版本的错误报告。
 #
-#  #Ver : 2.22.0518 Asata Shino
-#  #Update Time : 2014.10.23;14:31
+#  #Ver : 2.22.0519 Asata Shino
+#  #Update Time : 2014.10.23;14:39
 #  #Fix & Bug : 
+#  # 2.22.0519: 修复谷歌服务。
 #  # 2.22.0518: 修复谷歌服务。
 #  # 2.21.0516: 修复DuckDuckGo。
 #  # 2.21.0515: 修复Gmail联系人。
@@ -1312,8 +1313,8 @@
 #74.125.235.165	www2-china.l.google.com
 #74.125.235.165	www3-china.l.google.com
 #74.125.235.165	www4-china.l.google.com
-64.233.167.100	android.clients.google.com
-64.233.167.100	android.l.google.com
+64.233.185.100	android.clients.google.com
+64.233.185.100	android.l.google.com
 64.233.167.132	googlehosted.l.google.com
 210.242.125.118	base0.googlehosted.com
 210.242.125.118	base1.googlehosted.com
@@ -1347,21 +1348,21 @@
 64.233.167.211	ext.google.com
 #Android↑
 #Youtube↓
-64.233.167.100	accounts.youtube.com
-64.233.167.100	youtube.com
-64.233.167.100	youtu.be
-64.233.167.100	www.youtube.com
-64.233.167.100	m.youtube.com
-64.233.167.100	insight.youtube.com
-#64.233.167.100	apiblog.youtube.com
-64.233.167.100	help.youtube.com
-64.233.167.100	i.ytimg.com
-64.233.167.100	i1.ytimg.com
-64.233.167.100	i2.ytimg.com
-64.233.167.100	i3.ytimg.com
-64.233.167.100	i4.ytimg.com
-64.233.167.100	s.ytimg.com
-64.233.167.100	ytimg.l.google.com
+64.233.185.100	accounts.youtube.com
+64.233.185.100	youtube.com
+64.233.185.100	youtu.be
+64.233.185.100	www.youtube.com
+64.233.185.100	m.youtube.com
+64.233.185.100	insight.youtube.com
+#64.233.185.100	apiblog.youtube.com
+64.233.185.100	help.youtube.com
+64.233.185.100	i.ytimg.com
+64.233.185.100	i1.ytimg.com
+64.233.185.100	i2.ytimg.com
+64.233.185.100	i3.ytimg.com
+64.233.185.100	i4.ytimg.com
+64.233.185.100	s.ytimg.com
+64.233.185.100	ytimg.l.google.com
 64.233.167.106	manifest.googlevideo.com
 64.233.167.113	redirector.googlevideo.com
 208.117.236.134	r1---sn-25g7sm76.c.youtube.com
@@ -2630,10 +2631,10 @@
 208.117.255.185	r20---sn-vgqsem7l.googlevideo.com
 #Youtube↑
 #UpLoad↓
-64.233.167.100	uploads.clients.google.com
-64.233.167.100	uploads.client.google.com
-64.233.167.100	upload.clients.google.com
-64.233.167.100	upload.client.google.com
+64.233.185.100	uploads.clients.google.com
+64.233.185.100	uploads.client.google.com
+64.233.185.100	upload.clients.google.com
+64.233.185.100	upload.client.google.com
 64.233.167.117	upload.google.com
 64.233.167.117	upload.docs.google.com
 64.233.167.117	upload.photos.google.com
@@ -3025,8 +3026,9 @@
 74.125.202.17	isolated.mail.google.com
 64.233.167.101	history.google.com
 64.233.167.112	adwords.google.com
-64.233.167.100	apis.google.com
-64.233.167.100	talkgadget.google.com
+64.233.185.113	chart.apis.google.com
+64.233.185.100	apis.google.com
+64.233.185.100	talkgadget.google.com
 64.233.167.192	supl.google.com
 64.233.167.121	www.gwtproject.org
 64.233.167.82	www.googlesource.com
@@ -3081,7 +3083,6 @@
 210.242.125.118	wallet.google.com
 210.242.125.118	answers.google.com
 210.242.125.118	admin.google.com
-210.242.125.118	chart.apis.google.com
 210.242.125.118	appengine.google.com
 210.242.125.118	apps.google.com
 210.242.125.118	appspot.l.google.com
