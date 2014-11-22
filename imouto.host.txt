@@ -11,9 +11,10 @@
 #  部署hosts文件前请注意文本编码和换行符格式，请勿直接对文件进行覆盖。
 #  错误报告前请尝试更新到最新版本，不接受老版本的错误报告。
 #
-#  #Ver : 2.25.0530 Asata Shino
-#  #Update Time : 2014.10.30;15:41
+#  #Ver : 2.25.0540 Asata Shino
+#  #Update Time : 2014.11.23;00:10
 #  #Fix & Bug : 
+#  # 2.25.0530: 修复Mozilla服务
 #  # 2.25.0530: 修复Google服务，暂停Youtube服务支持。
 #  # 2.24.0528: 新增Twitter域名。
 #  # 2.24.0527: 新增若干谷歌域名。
@@ -6591,5 +6592,25 @@
 204.236.220.7	dl-client998.dropbox.com
 204.236.220.7	dl-client999.dropbox.com
 #Dropbox END
+
+#Mozilla START
+117.18.232.191 addons.cdn.mozilla.net
+117.18.232.191 mozorg.cdn.mozilla.net
+117.18.232.191 developer.cdn.mozilla.net
+117.18.232.191 support.cdn.mozilla.net
+117.18.232.191 marketplace.cdn.mozilla.net
+117.18.237.191 getpersonas.cdn.mozilla.net
+117.18.237.191 code.cdn.mozilla.net
+117.18.232.191 air.cdn.mozilla.net
+117.18.232.191 videos.cdn.mozilla.net
+117.18.232.191 glow.cdn.mozilla.net
+117.18.232.191 download-installer.cdn.mozilla.net
+117.18.232.191 download.cdn.mozilla.net
+117.18.232.191 fhr.cdn.mozilla.net
+117.18.232.191 activations.cdn.mozilla.net
+117.18.232.191 cdn.mozilla.net
+117.18.232.191 snippets.cdn.mozilla.net
+117.18.232.191 telemetry-experiment.cdn.mozilla.net
+#Mozilla END
 
 #+END
