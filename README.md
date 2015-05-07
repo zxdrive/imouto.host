@@ -7,14 +7,20 @@ imouto.host
 
 既然已经彻底停止更新了，那么我也不怕什么了，如果你想找我这个技术渣来探讨技术/探讨人生/为我介绍妹子/找我做男朋友/想肛我，可以到以下地方找我：
 
-[Google+ : Saya Zhang](https://plus.google.com/u/0/+SayaZhang/about)，
+[Google+ : Saya Zhang](https://plus.google.com/u/0/+SayaZhang/about)
+
 [看海的狐狸的后花园（请忽略证书错误）](https://ccfox.info/)
 
 国内社交服务，可以找我单独要。
+
 如果我信任你，我会给的。
+
 帝都地区想找我面基很方便，我现在住望京。
+
 妹子面基优先。
+
 对了，我真不是程序员。
+
 但我很喜欢程序员。
 
 地址更改
