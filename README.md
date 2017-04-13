@@ -78,4 +78,4 @@ imouto.host
 推广
 ===========
 
-[小巧稳定的Shadowsocks翻墙服务，点击这里](https://portal.shadowsocks.com/aff.php?aff=111)
+[小巧稳定的Shadowsocks翻墙服务，点击这里](https://portal.shadowsocks.com.hk/aff.php?aff=111)
